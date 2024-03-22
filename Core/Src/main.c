@@ -120,6 +120,7 @@ int main(void)
   	htim3.Instance->CCR1 = servoValue;
   	printf("%d\n", servoValue);
   	HAL_Delay(10);
+  	//
 
     /* USER CODE END WHILE */
 
